@@ -1,0 +1,24 @@
+git config --global user.name "Akhil"
+
+git config --global user.email akhilu5042@gmail.com
+
+git clone https://github.com/UmnebadiAkhil/SnakeAndLadderStimulator.git
+
+touch Sample1.txt
+
+git status
+
+git add Sample1.txt
+
+git status
+
+git commit -m "added Sample1.txt file" Sample1.txt
+
+git push -u origin main
+
+git branch UC-1
+
+git push origin UC-1
+
+git checkout UC-1 or git switch UC-1
+
